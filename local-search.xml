@@ -4,17 +4,17 @@
   
   
   <entry>
-    <title>机器人学习</title>
+    <title>ROS系统的安装</title>
     <link href="/2022/09/03/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/"/>
     <url>/2022/09/03/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/</url>
     
-    <content type="html"><![CDATA[<h3 id="ROS系统"><a href="#ROS系统" class="headerlink" title="ROS系统"></a>ROS系统</h3><p>ROS全称robot operating system，是一种用于编写机器人软件的灵活框架，是工具、库和协议的集合。</p><span id="more"></span><p><a href="https://wiki.ros.org/">ROS官方网站</a></p><h2 id="安装ROS系统"><a href="#安装ROS系统" class="headerlink" title="安装ROS系统"></a>安装ROS系统</h2><ol><li>安装虚拟机VMware Player</li><li>安装Ubuntu系统</li><li>安装ROS系统</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="ROS系统"><a href="#ROS系统" class="headerlink" title="ROS系统"></a>ROS系统</h1><p>ROS全称robot operating system，是一种用于编写机器人软件的灵活框架，是工具、库和协议的集合。</p><span id="more"></span><p><a href="https://wiki.ros.org/">ROS官方网站</a></p><h2 id="安装ROS系统"><a href="#安装ROS系统" class="headerlink" title="安装ROS系统"></a>安装ROS系统</h2><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><ol><li><p>获取虚拟机VMware Player安装包<br><a href="https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1624&productId=1039&rPId=91446#product_downloads">VMware Player官网</a><br>根据自己的电脑系统，选择对应的安装包。</p></li><li><p>获取Ubuntu系统安装包<br><a href="https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/">清华大学开源软件镜像站</a><br>Ubuntu官网下载会特别慢，所以建议用国内的镜像网站。<br>进入上面的网站后，选择你想安装的Ubuntu版本。我下载的是20.04版本，Ubuntu版本和ROS的版本是对应的，所以我下载的ROS版本是Noetic。对应关系如下，可以根据你想要的ROS版本下载相应版本的Ubuntu。</p></li></ol><table><thead><tr><th>Ubuntu版本</th><th>ROS名称</th><th>常用简称</th></tr></thead><tbody><tr><td>20.04</td><td>ROS Noetic Ninjemys</td><td>Noetic</td></tr><tr><td>18.04</td><td>ROS Melodic Morenia</td><td>Melodic</td></tr><tr><td>16.04</td><td>ROS Kinetic Kame</td><td>Kinetic</td></tr></tbody></table><h3 id="安装流程"><a href="#安装流程" class="headerlink" title="安装流程"></a>安装流程</h3><ol><li>安装虚拟机VMware Player<br>根据它的安装向导一步步安装就行，不过注意一下安装路径，建议改到一个c盘以外并且有60个G以上剩余空间的磁盘。（磁盘剩余，30G不能再少了，不然，在后面的学习过程中很难再在虚拟机中安装或运行一些需要的程序）</li><li>安装Ubuntu系统<br><a href="https://blog.csdn.net/weixin_44410537/article/details/100938963">Ubuntu 20.04 虚拟机安装教程</a></li></ol>]]></content>
     
     
     
     <tags>
       
-      <tag>文章</tag>
+      <tag>机器人操作系统</tag>
       
     </tags>
     
