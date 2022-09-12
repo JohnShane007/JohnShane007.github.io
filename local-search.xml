@@ -4,36 +4,17 @@
   
   
   <entry>
-    <title>张景翔是傻子吗?</title>
-    <link href="/2022/09/03/%E5%BC%A0%E6%99%AF%E7%BF%94%E6%98%AF%E5%82%BB%E5%AD%90%E5%90%97/"/>
-    <url>/2022/09/03/%E5%BC%A0%E6%99%AF%E7%BF%94%E6%98%AF%E5%82%BB%E5%AD%90%E5%90%97/</url>
+    <title>机器人学习</title>
+    <link href="/2022/09/03/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/"/>
+    <url>/2022/09/03/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/</url>
     
-    <content type="html"><![CDATA[<h2 id="张景翔是一个傻子吗"><a href="#张景翔是一个傻子吗" class="headerlink" title="张景翔是一个傻子吗?"></a>张景翔是一个傻子吗?</h2><p>是的</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="ROS系统"><a href="#ROS系统" class="headerlink" title="ROS系统"></a>ROS系统</h3><p>ROS全称robot operating system，是一种用于编写机器人软件的灵活框架，是工具、库和协议的集合。</p><span id="more"></span><p><a href="https://wiki.ros.org/">ROS官方网站</a></p><h2 id="安装ROS系统"><a href="#安装ROS系统" class="headerlink" title="安装ROS系统"></a>安装ROS系统</h2><ol><li>安装虚拟机VMware Player</li><li>安装Ubuntu系统</li><li>安装ROS系统</li></ol>]]></content>
     
     
     
     <tags>
       
       <tag>文章</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>金工实习</title>
-    <link href="/2022/08/28/%E9%87%91%E5%B7%A5%E5%AE%9E%E4%B9%A0/"/>
-    <url>/2022/08/28/%E9%87%91%E5%B7%A5%E5%AE%9E%E4%B9%A0/</url>
-    
-    <content type="html"><![CDATA[<h1 id="金工实习流程及注意事项"><a href="#金工实习流程及注意事项" class="headerlink" title="金工实习流程及注意事项"></a>金工实习流程及注意事项</h1><span id="more"></span><p> 组别：3序号：9<br>上午8：00-11：30  <br>下午2：30-5：20<br>钳工加工锤头（鸭嘴锤），时间两天。车工加工锤杆，实习两天。铸锻焊接铣刨共两天.</p><h2 id="钳工"><a href="#钳工" class="headerlink" title="钳工"></a>钳工</h2><p>钳工概述<br>钳工是以手工操作为主，使用各种工具来完成工件的加工、装配和修理等工作。<br>钳工的主要操作方法有划线、錾削、锯削、锉削、钻孔、铰孔、攻丝、套扣、刮削和装配等。</p><h3 id="锉削"><a href="#锉削" class="headerlink" title="锉削"></a>锉削</h3><p>锉削方法：顺向锉削，交叉锉法，推锉法，滚锉法。平面一般采用前三种就能将零件锉平。<br>锉刀: 锉刀的构造，锉刀是用碳素工具钢 T12或T13制成，并经热处理硬度达到62—67HRC，是专业生产的一种标准工具。<br>锉刀的各部名称：锉刀面、锉边、底齿、面齿、锉刀尾、锉刀舌、手柄。<br>锉刀面：是锉削的主要工作面。<br>锉边：主要用来锉氧化皮、打毛刺。<br><img src="https://s1.ax1x.com/2022/08/28/vWHCnA.jpg" alt="vWHCnA.jpg" title="锉刀图片"><br>锉刀的种类：<br>(1）我们平时常用的锉刀从断面形状分有：平锉、方锉、圆锉、半圆锉、三角锉等5种锉刀。<br>(2）从锉齿上分有：粗齿锉刀：主要用于较大加工余量，加工精度和表面粗糙度要求低的零件锉削或软金属的锉削。中齿锉：用于较小加工量的零件锉削。细齿锉刀：用于加工余量小，加工精度和表面粗糙度要求高的零件加工。<br>(3）从锉纹上分有：<br>单纹锉：单纹锉刀工作面上的锉纹呈斜向平行排列或沿中线对角排列，常用于锉削软金属材料，比如铝、铸铁材料。<br>双纹锉：双纹锉刀工作面上的锉齿交叉排列，且齿尖一般向前倾斜一定角度，一般用于加工比较硬的金属材料，比如钢、铁等材料。<br>(4）从锉刀的长度分有：<br>4”(100mm)、 6”（150mm）、8” （200mm）、10” （250mm）、12” （300mm）等。</p><h3 id="划线"><a href="#划线" class="headerlink" title="划线"></a>划线</h3><p>划线工具12种:</p><h2 id="车工"><a href="#车工" class="headerlink" title="车工"></a>车工</h2><p>地点：教八A 二楼</p><h2 id="铸锻"><a href="#铸锻" class="headerlink" title="铸锻"></a>铸锻</h2><p>地点：法政系，109</p><h2 id="焊接"><a href="#焊接" class="headerlink" title="焊接"></a>焊接</h2><p>地点：教八A 三楼</p><h2 id="铣刨"><a href="#铣刨" class="headerlink" title="铣刨"></a>铣刨</h2><p>地点：教八A 一楼</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>专业学习</tag>
       
     </tags>
     
@@ -49,44 +30,6 @@
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>测试图片上传</title>
-    <link href="/2022/08/27/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
-    <url>/2022/08/27/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/</url>
-    
-    <content type="html"><![CDATA[<h2 id="Hexo博客插入图片方式"><a href="#Hexo博客插入图片方式" class="headerlink" title="Hexo博客插入图片方式"></a>Hexo博客插入图片方式</h2><p>有两种免费的方法，一种是本地上传，一种是云空间读取。前者图片加载较慢，后者免费，而且图片加载流畅</p><span id="more"></span><h3 id="方法一：本地上传"><a href="#方法一：本地上传" class="headerlink" title="方法一：本地上传"></a>方法一：本地上传</h3><p>相当于将图片上传到了github的服务器里，如果是文章大量的配图，这种方法很不建议。如果是导航键的图标等，内存小的图片，可以选择。此外需要注意，该方法无法上传JPG格式的图片。<br>流程如下：<br>Hexo根目录下，找到source文件夹。在source文件夹下新建一个images文件夹，用images存放图片。在文章中使用下面的代码引用图片</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">![图片加载不出来是的名字](/images/图片名字.png “图片下标名”)<br></code></pre></td></tr></table></figure><h3 id="方法二：路过图床"><a href="#方法二：路过图床" class="headerlink" title="方法二：路过图床"></a>方法二：路过图床</h3><p>流程如下：<br>将图片上传到路过图床的空间中，复制文件的链接，将链接代入到下面的代码中</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">![图片加载不出来时的名字](复制的链接 <span class="hljs-string">&quot;图片下标名&quot;</span>)<br></code></pre></td></tr></table></figure><p><a href="https://imgse.com/i/vfoXwt"><img src="https://s1.ax1x.com/2022/08/29/vfoXwt.jpg" alt="vfoXwt.jpg"></a></p><p>这是一个测试</p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>Hexo博客写作</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>我的第一个博客</title>
-    <link href="/2022/08/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/"/>
-    <url>/2022/08/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    
-    <content type="html"><![CDATA[<h2 id="这是一个实验，测试是否可以使用"><a href="#这是一个实验，测试是否可以使用" class="headerlink" title="这是一个实验，测试是否可以使用"></a>这是一个实验，测试是否可以使用</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">这是一个实验，测试是否可以使用<br></code></pre></td></tr></table></figure><span id="more"></span><h3 id="这里会有一个连接"><a href="#这里会有一个连接" class="headerlink" title="这里会有一个连接"></a>这里会有一个连接</h3><p><a href="http://shadiao.plus/">试试戳一下我</a></p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>文章</tag>
-      
-    </tags>
     
   </entry>
   
