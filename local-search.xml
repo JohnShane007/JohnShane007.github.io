@@ -4,6 +4,38 @@
   
   
   <entry>
+    <title>ROS工程文件详情解析</title>
+    <link href="/2022/09/21/ROS%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E8%AF%A6%E6%83%85%E8%A7%A3%E6%9E%90/"/>
+    <url>/2022/09/21/ROS%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E8%AF%A6%E6%83%85%E8%A7%A3%E6%9E%90/</url>
+    
+    <content type="html"><![CDATA[<p>通过VScode软件建立的工程文件下,有许多文件,下面将详细解释常见文件的作用及其内容的理解.</p><span id="more"></span><h2 id="workspace-x2F-src-x2F-package-x2F-CMakeLists-txt"><a href="#workspace-x2F-src-x2F-package-x2F-CMakeLists-txt" class="headerlink" title="workspace&#x2F;src&#x2F;package&#x2F;CMakeLists.txt"></a>workspace&#x2F;src&#x2F;package&#x2F;CMakeLists.txt</h2><p>CMakeLists.txt就是整个功能包编译的核心管理系统，它里面记录了编译生成的可执行文件的名称、文置和它依赖的.cpp或.py文件。<br>例如下面这行代码就代表，我的文件包生成一个名为talker_0430的可执行文件，它的内容来自src&#x2F;talker_0430</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 复制">add_executable(talker_0430 src/talker_0430.cpp)<br></code></pre></td></tr></table></figure><p>当你不理解的时候可以尝试阅读里面的官方注释。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ROS概念理解</title>
+    <link href="/2022/09/20/ROS%E6%A6%82%E5%BF%B5%E7%90%86%E8%A7%A3/"/>
+    <url>/2022/09/20/ROS%E6%A6%82%E5%BF%B5%E7%90%86%E8%A7%A3/</url>
+    
+    <content type="html"><![CDATA[<p>ROS中常见概念的理解<br>一个.cpp文件中可以设置多个节点句柄，但它们的区别只在于命名空间不同，表示的都是同一个节点。</p><h2 id="window中的句柄"><a href="#window中的句柄" class="headerlink" title="window中的句柄"></a>window中的句柄</h2><p>句柄本质上就是一个指向结构体的指针。句柄的内存地址一定，它里面记载了对象在内存中的地址；而对象在内存中的地址不稳定，当发生变化时，相应的会改变句柄里的数，而不改变句柄的地址。</p><h2 id="节点"><a href="#节点" class="headerlink" title="节点"></a>节点</h2><p>从程序角度来说，节点就是一个可执行文件（通常为c++生成的可执行文件、Python脚本）被执行，加载到了内存之中。<br>从功能的角度来说，通常一个节点负责机器人的某个单独的功能。<br>节点之间通过话题topic、服务service、动作action或者参数parameter实现数据的收发。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>机器人操作系统</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>cource</title>
     <link href="/2022/09/14/cource/"/>
     <url>/2022/09/14/cource/</url>
