@@ -16,22 +16,32 @@
   <meta name="author" content="JJplayer">
   <meta name="keywords" content="博客">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Archives">
-<meta property="og:url" content="http://shijjplayerya.github.io/archives/2022/index.html">
+    <meta name="description" content="通过这个实验可以实现：利用红外遥控器发射信号，在单片机上可以显示相应的数值。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="STM32实现红外接收">
+<meta property="og:url" content="http://shijjplayerya.github.io/2022/09/21/STM32%E5%AE%9E%E7%8E%B0%E7%BA%A2%E5%A4%96%E6%8E%A5%E6%94%B6/index.html">
 <meta property="og:site_name" content="JJplayer">
+<meta property="og:description" content="通过这个实验可以实现：利用红外遥控器发射信号，在单片机上可以显示相应的数值。">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-09-21T13:50:45.000Z">
+<meta property="article:modified_time" content="2022-09-21T14:14:41.766Z">
 <meta property="article:author" content="JJplayer">
-<meta property="article:tag" content="博客">
+<meta property="article:tag" content="单片机">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Archives - JJplayer</title>
+  <title>STM32实现红外接收 - JJplayer</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
 
 
 
@@ -81,7 +91,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 60vh;">
+<div class="header-inner" style="height: 70vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -198,9 +208,49 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Archives"></span>
+            <span id="subtitle" data-typed-text="STM32实现红外接收"></span>
           
         </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2022-09-21 21:50" pubdate>
+          September 21, 2022 pm
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          73 words
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          1 mins
+        
+      </span>
+    
+
+    
+    
+  </div>
+
 
         
       </div>
@@ -216,82 +266,172 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">8 posts in total</p>
-  <hr>
-  
-  
-    
       
-      <p class="h5">2022</p>
-    
-    <a href="/2022/09/21/STM32%E5%AE%9E%E7%8E%B0%E7%BA%A2%E5%A4%96%E6%8E%A5%E6%94%B6/" class="list-group-item list-group-item-action">
-      <time>09-21</time>
-      <div class="list-group-item-title">STM32实现红外接收</div>
-    </a>
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">STM32实现红外接收</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>通过这个实验可以实现：利用红外遥控器发射信号，在单片机上可以显示相应的数值。</p>
+<span id="more"></span>
+<h2 id="外部中断"><a href="#外部中断" class="headerlink" title="外部中断"></a>外部中断</h2><p>在APP文件夹下添加exti.c文件(外部中断相关函数)</p>
+<h2 id="宏定义"><a href="#宏定义" class="headerlink" title="宏定义"></a>宏定义</h2>
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
   
-    
-    <a href="/2022/09/21/ROS%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E8%AF%A6%E6%83%85%E8%A7%A3%E6%9E%90/" class="list-group-item list-group-item-action">
-      <time>09-21</time>
-      <div class="list-group-item-title">ROS工程文件详情解析</div>
-    </a>
   
-    
-    <a href="/2022/09/20/ROS%E6%A6%82%E5%BF%B5%E7%90%86%E8%A7%A3/" class="list-group-item list-group-item-action">
-      <time>09-20</time>
-      <div class="list-group-item-title">ROS概念理解</div>
-    </a>
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%8D%95%E7%89%87%E6%9C%BA/">#单片机</a>
+      
+    </div>
   
-    
-    <a href="/2022/09/14/cource/" class="list-group-item list-group-item-action">
-      <time>09-14</time>
-      <div class="list-group-item-title">cource</div>
-    </a>
+</div>
+
+
+              
   
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>STM32实现红外接收</div>
+      <div>http://shijjplayerya.github.io/2022/09/21/STM32实现红外接收/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>Author</div>
+          <div>JJplayer</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Posted on</div>
+          <div>September 21, 2022</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>Updated on</div>
+          <div>September 21, 2022</div>
+        </div>
+      
+      <div class="license-meta-item">
+        <div>Licensed under</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2022/09/21/ROS%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E8%AF%A6%E6%83%85%E8%A7%A3%E6%9E%90/" title="ROS工程文件详情解析">
+                        <span class="hidden-mobile">ROS工程文件详情解析</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
     
-    <a href="/2022/09/12/%E6%A8%A1%E6%8B%9F%E9%80%80%E7%81%AB%E7%AE%97%E6%B3%95/" class="list-group-item list-group-item-action">
-      <time>09-12</time>
-      <div class="list-group-item-title">模拟退火算法</div>
-    </a>
-  
-    
-    <a href="/2022/09/12/%E6%96%B0%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AAROS%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6/" class="list-group-item list-group-item-action">
-      <time>09-12</time>
-      <div class="list-group-item-title">新建第一个ROS工程文件</div>
-    </a>
-  
-    
-    <a href="/2022/09/03/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0/" class="list-group-item list-group-item-action">
-      <time>09-03</time>
-      <div class="list-group-item-title">ROS系统的安装</div>
-    </a>
-  
-    
-    <a href="/2022/08/28/hello-world/" class="list-group-item list-group-item-action">
-      <time>08-28</time>
-      <div class="list-group-item-title">MarkDown语法总结</div>
-    </a>
-  
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;Table of Contents</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
 </div>
 
 
 
 
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
     
 
     
@@ -385,6 +525,72 @@
 
 
 
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
 
