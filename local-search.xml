@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>ROS中的launch文件</title>
+    <link href="/2022/10/04/ROS%E4%B8%AD%E7%9A%84launch%E6%96%87%E4%BB%B6/"/>
+    <url>/2022/10/04/ROS%E4%B8%AD%E7%9A%84launch%E6%96%87%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<p>launch文件用于快速开启多个节点</p><span id="more"></span><h2 id="一、launch文件的编写"><a href="#一、launch文件的编写" class="headerlink" title="一、launch文件的编写"></a>一、launch文件的编写</h2><p>先略过</p><h2 id="二、XML文件常见标签介绍"><a href="#二、XML文件常见标签介绍" class="headerlink" title="二、XML文件常见标签介绍"></a>二、XML文件常见标签介绍</h2><h3 id="标签：运行节点设置"><a href="#标签：运行节点设置" class="headerlink" title="标签：运行节点设置"></a><node>标签：运行节点设置</h3><div class="note note-secondary">            <p>可设置的属性<br>前三个属性是必备的</p><ol><li>pkg&#x3D;“mypackage” package of node</li><li>type&#x3D;“nodetype” there must be a corresponding executable with the same name</li><li>name&#x3D;“nodename”redefine node name .NOTE: name cannot contain a namespace.use the “ns” attribute instead.</li><li>ns&#x3D;”foo” start the node in the ‘foo’ namespace.</li><li>respawn&#x3D;”true”(default: false) restart node automatically if it quits</li><li>respawn_delay&#x3D;”30”(default: 0) if respawn if ture. wait respawn_delay seconds after the node failure is detected before attempting restart.</li></ol>          </div>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>机器人操作系统</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>ROS命令行</title>
     <link href="/2022/09/27/ROS%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
     <url>/2022/09/27/ROS%E5%91%BD%E4%BB%A4%E8%A1%8C/</url>
