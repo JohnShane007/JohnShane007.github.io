@@ -16,22 +16,22 @@
   <meta name="author" content="JJplayer">
   <meta name="keywords" content="博客">
   
-    <meta name="description" content="launch文件用于快速开启多个节点">
+    <meta name="description" content="群体优化算法">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ROS中的launch文件">
-<meta property="og:url" content="http://shijjplayerya.github.io/2022/10/04/ROS%E4%B8%AD%E7%9A%84launch%E6%96%87%E4%BB%B6/index.html">
+<meta property="og:title" content="群体优化算法">
+<meta property="og:url" content="http://shijjplayerya.github.io/2022/10/22/%E7%BE%A4%E4%BD%93%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/index.html">
 <meta property="og:site_name" content="JJplayer">
-<meta property="og:description" content="launch文件用于快速开启多个节点">
+<meta property="og:description" content="群体优化算法">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-10-04T08:16:10.000Z">
-<meta property="article:modified_time" content="2022-10-04T08:38:44.208Z">
+<meta property="article:published_time" content="2022-10-22T14:20:05.000Z">
+<meta property="article:modified_time" content="2022-10-22T14:21:24.536Z">
 <meta property="article:author" content="JJplayer">
-<meta property="article:tag" content="机器人操作系统">
+<meta property="article:tag" content="数学建模">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>ROS中的launch文件 - JJplayer</title>
+  <title>群体优化算法 - JJplayer</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -208,7 +208,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="ROS中的launch文件"></span>
+            <span id="subtitle" data-typed-text="群体优化算法"></span>
           
         </div>
 
@@ -219,8 +219,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-10-04 16:16" pubdate>
-          October 4, 2022 pm
+        <time datetime="2022-10-22 22:20" pubdate>
+          October 22, 2022 pm
         </time>
       </span>
     
@@ -231,7 +231,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          510 words
+          1.6k words
         
       </span>
     
@@ -242,7 +242,7 @@
         
         
         
-          5 mins
+          13 mins
         
       </span>
     
@@ -280,20 +280,14 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">ROS中的launch文件</h1>
+            <h1 style="display: none">群体优化算法</h1>
             
             
               <div class="markdown-body">
                 
-                <p>launch文件用于快速开启多个节点</p>
+                <p>群体优化算法</p>
 <span id="more"></span>
-<h2 id="一、launch文件的编写"><a href="#一、launch文件的编写" class="headerlink" title="一、launch文件的编写"></a>一、launch文件的编写</h2><p>先略过</p>
-<h2 id="二、XML文件常见标签介绍"><a href="#二、XML文件常见标签介绍" class="headerlink" title="二、XML文件常见标签介绍"></a>二、XML文件常见标签介绍</h2><h3 id="标签：运行节点设置"><a href="#标签：运行节点设置" class="headerlink" title="标签：运行节点设置"></a><node>标签：运行节点设置</h3><div class="note note-secondary">
-            <p>可设置的属性<br>前三个属性是必备的</p><ol><li>pkg&#x3D;“mypackage” package of node</li><li>type&#x3D;“nodetype” there must be a corresponding executable with the same name</li><li>name&#x3D;“nodename”redefine node name .NOTE: name cannot contain a namespace.use the “ns” attribute instead.</li><li>ns&#x3D;”foo” start the node in the ‘foo’ namespace.</li><li>respawn&#x3D;”true”(default: false) restart node automatically if it quits</li><li>respawn_delay&#x3D;”30”(default: 0) if respawn if ture. wait respawn_delay seconds after the node failure is detected before attempting restart.</li></ol>
-          </div>
-
-
-
+<h2 id="粒子群优化算法"><a href="#粒子群优化算法" class="headerlink" title="粒子群优化算法"></a>粒子群优化算法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br></pre></td><td class="code"><pre><code class="hljs 复制">%% I. 清空环境<br>clc<br>clear<br>close all<br>%% III. 参数初始化<br>c1 = 1.49445;<br>c2 = 1.49445;<br> <br>maxgen = 800;   % 进化次数  <br>sizepop = 10;   %种群规模<br> <br>Vmax = 1;   %速度的范围，超过则用边界值。<br>Vmin = -Vmax;  <br>popmax = 30;   %个体的变化范围<br>popmin = 0;<br><br>pop=zeros(sizepop,3);<br>process=cell(sizepop,2);<br>%% IV. 产生初始粒子和速度<br>for i = 1:sizepop<br>    % 随机产生一个种群<br>    pop(i,:) = [30 * rand(1),30 * rand(1),30 * rand(1)];    %初始种群，rand产生(0,1)，调整到(0,30)<br>    V(i,:) = [0.5 * rands(1),0.5 * rands(1),0.5 * rands(1)];  %初始化速度,速度有正负,rands产生(-1,1)<br>    % 计算适应度<br>    fitness(i) = fun(pop(i,:));   <br>end<br> <br>%% V. 个体极值和群体极值<br>[bestfitness,bestindex] = max(fitness);<br>zbest = pop(bestindex,:);   %全局最佳<br>gbest = pop;    %个体最佳<br>fitnessgbest = fitness;   %个体最佳适应度值<br>fitnesszbest = bestfitness;   %全局最佳适应度值<br> <br>%% VI. 迭代寻优<br>for i = 1:maxgen<br>    <br>    for j = 1:sizepop<br>        <br>        % 速度更新<br>        V(j,:) = V(j,:) + c1*rand*(gbest(j,:) - pop(j,:)) + c2*rand*(zbest - pop(j,:));<br>        V(j,V(j,:)&gt;Vmax) = Vmax;<br>        V(j,V(j,:)&lt;Vmin) = Vmin;<br>        <br>        % 种群更新<br>        pop(j,:) = pop(j,:) + V(j,:);<br>        pop(j,pop(j,:)&gt;popmax) = popmax;<br>        pop(j,pop(j,:)&lt;popmin) = popmin;<br>        <br>        % 适应度值更新<br>        fitness(j) = fun(pop(j,:));<br>        %记录个体每次迭代的位置,速度<br>        process&#123;j,1&#125;(i,:)=pop(j,:);<br>        process&#123;j,2&#125;(i,:)=V(j,:);<br>    end<br>    <br>    for j = 1:sizepop    <br>        % 个体最优更新<br>        if fitness(j) &gt; fitnessgbest(j)<br>            gbest(j,:) = pop(j,:);<br>            fitnessgbest(j) = fitness(j);<br>        end<br>        <br>        % 群体最优更新<br>        if fitness(j) &gt; fitnesszbest<br>            zbest = pop(j,:);<br>            fitnesszbest = fitness(j);<br>        end<br>    end <br>    yy(i) = fitnesszbest;          <br>end<br> <br>%% VII. 输出结果并绘图<br>disp([fitnesszbest zbest])<br>plot(zbest, fitnesszbest,&#x27;r*&#x27;)<br><br><br>figure<br>plot(yy)<br>title(&#x27;最优个体适应度&#x27;,&#x27;fontsize&#x27;,12);<br>xlabel(&#x27;进化代数&#x27;,&#x27;fontsize&#x27;,12);ylabel(&#x27;适应度&#x27;,&#x27;fontsize&#x27;,12);<br><br><br></code></pre></td></tr></table></figure>
                 
               </div>
             
@@ -305,7 +299,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">#机器人操作系统</a>
+        <a href="/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/">#数学建模</a>
       
     </div>
   
@@ -317,8 +311,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>ROS中的launch文件</div>
-      <div>http://shijjplayerya.github.io/2022/10/04/ROS中的launch文件/</div>
+      <div>群体优化算法</div>
+      <div>http://shijjplayerya.github.io/2022/10/22/群体优化算法/</div>
     </div>
     <div class="license-meta">
       
@@ -330,13 +324,13 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>October 4, 2022</div>
+          <div>October 22, 2022</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
           <div>Updated on</div>
-          <div>October 4, 2022</div>
+          <div>October 22, 2022</div>
         </div>
       
       <div class="license-meta-item">
@@ -365,18 +359,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/10/22/%E7%BE%A4%E4%BD%93%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/" title="群体优化算法">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">群体优化算法</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/09/27/ROS%E5%91%BD%E4%BB%A4%E8%A1%8C/" title="ROS命令行">
-                        <span class="hidden-mobile">ROS命令行</span>
+                      <a href="/2022/10/04/ROS%E4%B8%AD%E7%9A%84launch%E6%96%87%E4%BB%B6/" title="ROS中的launch文件">
+                        <span class="hidden-mobile">ROS中的launch文件</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
