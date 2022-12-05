@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>2024考研高等数学复习进程记录</title>
+    <link href="/2022/12/05/2024%E8%80%83%E7%A0%94%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%A4%8D%E4%B9%A0%E8%BF%9B%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
+    <url>/2022/12/05/2024%E8%80%83%E7%A0%94%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%A4%8D%E4%B9%A0%E8%BF%9B%E7%A8%8B%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<p>主要记录高等数学的学习记录，不必写出详细知识点</p><span id="more"></span><h2 id="隐函数的导数"><a href="#隐函数的导数" class="headerlink" title="隐函数的导数"></a>隐函数的导数</h2><p>[2022.12.05]<br>隐函数求导很简单，将等式两边同时对自变量求导，再做一系列移项操作即可。值得注意，当隐函数中出现“复合幂函数”部分而影响计算时，可以用对数求导法，即将两边同时取对数后，再按正常步骤操作。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>2024考研</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>ROS机器人建模</title>
     <link href="/2022/11/24/ROS%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BB%BA%E6%A8%A1/"/>
     <url>/2022/11/24/ROS%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BB%BA%E6%A8%A1/</url>
